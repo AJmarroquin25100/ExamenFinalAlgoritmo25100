@@ -1,0 +1,25 @@
+class ManejadorVehiculo:
+    def init (self):
+        self.vehiculos = {}
+        self.id.vehiculo = 1
+
+        def crear_vehiculo(self marca, modelo, color):
+        nuevo_vehiculo = {'Marca': marca, 'Modelo': modelo,'Color': color}
+self.vheiculo = [self.id_vehiculo] = nuevo_vehiculo
+self.id_vehiculo += 1
+print ("Vehiculo creado exitosamenmte")
+
+def Editar_vehiculo(self, id_vehiculo, marca, modelo, color):
+if id_vehiculo in self.vehiculos: 
+    vehiculo O self.vehiculo [id_vehiculo]
+    vehiculo ['Marca'] = marca
+    vehiculo ['Modelo'] = modelo
+    vehiculo ['Color'] = color
+    print ("Vehiculo con id {}, no existe".format (id_vehiculo)) 
+
+def Eliminar_vehiculo(self, id_vehiculo):
+    if id_vehiculo in self.vehiculos:
+        del self.vehiculos[id_vehiculo]
+        print ("Vehiculo eliminado exitosamenmte")
+    else:
+        print ("Vehiculo eliminado exitosamenmte")
